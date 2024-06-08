@@ -55,35 +55,27 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-.main{
-}
-
 .main__container {
   max-width: 290px;
   margin: 0px auto;
 	padding: 15px;
   background-color: #fff;
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 20px;
   box-sizing: content-box;
 }
-
 .main__image {
   margin-bottom: 25px;  
 }
-
 .main__image img{
   max-width: 290px;
   box-shadow: 0 25px 25px 0 rgba(0,0,0,.05);
-  border-radius: 20px 20px 20px 20px;
+  border-radius: 10px;
 }
-
 .text-block {
  margin: 0 auto;
  padding: 0 20px;
 }
-
-.text-block__large {
+.text-block--large {
   color: #1f314f;
   font-size: 22px;
   margin-top: 0;
